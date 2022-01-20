@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+/* Color Theme Swatches in Hex */
+.Roller-skater-KWONI-1-hex { color: #F27C38; }
+.Roller-skater-KWONI-2-hex { color: #D99177; }
+.Roller-skater-KWONI-3-hex { color: #D9A491; }
+.Roller-skater-KWONI-4-hex { color: #591202; }
+.Roller-skater-KWONI-5-hex { color: #BF1304; }
+
+#divtitre {
+    padding-top: 6em;
+    padding-left: 3em;
+    margin: 0;
+    display: block;
+}
+
+#titre {
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 6em;
+    margin: 0;
+}
+
+#titre #ller{
+    color: #BF1304;
+}
+
+#divtitre h2 {
+    margin: 0;
+    font-size: 2em;
+    margin-left: 0.2em;
+    margin-bottom: 1em;
+}
+
+#divtitre #cta {
+    margin-left: 0.4em;
+}
+
+#logo {
+    float: right;
+    width: 25em;
+    margin-right: 1em;
+}
+
+.présentation div {
+    text-align: justify;
+}
+
+.règles h2 {
+    font-weight: bold;
+    text-align: center;
+    color: #591202;
+}
+
+.présentation h2 {
+    font-weight: bold;
+    text-align: center;
+    color: #591202;
+}
+
+iframe {
+    border-radius: 0.6em;
+}
+
+.carte {
+    margin-top: 5em;
+    text-align: center;
+    margin-bottom: 5em;
+}
+
+#cta {
+    padding: 1em;
+}
+
+.présentation div a {
+    color: #980d00;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.présentation div a:hover {
+    color: #591202;
+    text-decoration: underline;
+}

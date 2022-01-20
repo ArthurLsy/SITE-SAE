@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+/* Color Theme Swatches in Hex */
+.Roller-skater-KWONI-1-hex { color: #F27C38; }
+.Roller-skater-KWONI-2-hex { color: #D99177; }
+.Roller-skater-KWONI-3-hex { color: #D9A491; }
+.Roller-skater-KWONI-4-hex { color: #591202; }
+.Roller-skater-KWONI-5-hex { color: #BF1304; }
+
+#divtitre {
+    text-align: center;
+}
+
+#titre {
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 5em;
+    margin-bottom: 0;
+}
+
+#titre #ller{
+    color: #BF1304;
+}
+
+#divtitre h2 {
+    margin: 0;
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+#ficheinscr {
+    background-color: #D9A491;
+    border-radius: 0.6em;
+    border: solid 0.05em #591202;
+    width: 40em;
+    margin: auto;
+    margin-top: 2em;
+}
+
+form div {
+    margin: 2em 1em 2em 1em;
+    text-align: center;
+}
+
+form div input {
+    border-radius: 0.6em;
+}
+
+.mentions {
+    color: #BF1304;
+    transition: 0.5s;
+}
+
+.mentions:hover {
+    color: #591202;
+}

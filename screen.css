@@ -1,0 +1,114 @@
+/* Color Theme Swatches in Hex */
+.Roller-skater-KWONI-1-hex { color: #F27C38; }
+.Roller-skater-KWONI-2-hex { color: #D99177; }
+.Roller-skater-KWONI-3-hex { color: #D9A491; }
+.Roller-skater-KWONI-4-hex { color: #591202; }
+.Roller-skater-KWONI-5-hex { color: #BF1304; }
+
+html {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui;
+    background-color: #D9A491;
+}
+
+#cadre {
+    width: 85em;
+    margin: auto;
+    border-radius: 0.6em;
+    background-color: #EFD1C5;
+    border: solid white 0.4em;
+}
+
+header ul {
+    list-style-type: none;
+    text-align: right;
+    margin: 0;
+    padding: 3em;
+    padding-top: 4em;
+}
+
+header ul li {
+    display: inline-block;
+    padding: 0 2em 0 2em;
+}
+
+header ul li a {
+    color: #545454;
+    text-decoration-line: none;
+    transition: 0.5s;
+}
+
+header ul li a:hover {
+    text-decoration: underline;
+}
+
+#logo_iut {
+    float: left;
+    width: 8em;
+    padding: 0.5em 0 0 1em;
+}
+
+.accueil {
+    color: #BF1304;
+}
+
+footer {
+    margin: 15em 5em 2em 5em;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+    margin: auto;
+    text-align: right;
+}
+
+footer ul li {
+    display: inline-block;
+}
+
+#mentions_legales {
+    float: left;
+}
+
+#réseaux {
+    width: 3em;
+    border-radius: 0.6em;
+    margin: 0 1em 0 1em;
+    transition: 0.5s;
+}
+
+#réseaux:hover {
+    transform: scale(1.1);
+}
+
+.bouton {
+    background-color: #BF1304;
+    border-radius: 0.6em;
+    padding: 0.6em;
+    color: white;
+    text-decoration: none;
+    transition-duration: 0.5s;
+    transition: 0.5s;
+}
+
+.bouton:hover {
+    background-color: #980d00;
+}
+
+#texte {
+    width: 60em;
+    margin: auto;
+    background-color: #F5BCA8;
+    border-radius: 0.6em;
+    border: solid 0.05em #591202;
+    margin-bottom: 5em;
+    margin-top: 5em;
+    padding: 1em;
+}
+
+#active {
+    text-decoration: underline;
+    font-weight: bold;
+}

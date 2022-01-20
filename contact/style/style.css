@@ -1,0 +1,21 @@
+.contact h2 {
+    font-weight: bold;
+    text-align: center;
+    color: #591202;
+}
+
+.contact img {
+    border-radius: 0.6em;
+    width: 20em;
+    margin: 1em;
+    display: block;
+}
+
+.contact a {
+    color: #BF1304;
+    transition: 0.5s;
+}
+
+.contact a:hover {
+    color: #591202;
+}

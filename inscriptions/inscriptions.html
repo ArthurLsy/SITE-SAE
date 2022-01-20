@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebEvent</title>
+    <link href='../screen.css' rel='stylesheet'>
+    <link href='style/style.css' rel='stylesheet'>
+</head>
+<div id='cadre'>
+    <header>
+        <img src='../images/logoiut.png' id='logo_iut'>
+        <nav>
+            <ul>
+                <li><a href='../index.html' class='accueil'>Accueil</a></li>
+                <li><a href='../presentation/presentation.html'>Présentation</a></li>
+                <li><a href='../partenaire/partenaire.html'>Notre partenaire</a></li>
+                <li><a href='../docs/docs.html'>Etudes de documents</a></li>
+                <li><a href='../contact/contact.html'>Nous contacter</a></li>
+                <li><a href='' class='bouton' id='active'>S'inscrire</a></li>
+            </ul>
+        </nav> 
+    </header>
+    <body>
+        <div id='divtitre'>
+            <h1 id='titre'>Histo'Ro<a id='ller'>ller</a></h1>
+            <h2>Venez découvrir Calais sous un autre angle</h2>
+            <a href='../contact/contact.html' id='cta' class='bouton'>Contactez-nous</a>
+        </div>
+        <div id='ficheinscr'>
+            <form>
+                <div class='titreform'>
+                    <h2>Inscription</h2>
+                </div>
+                <div class='prenom'>
+                    <label>Prénom :</label>
+                    <input type="text" name="prenom" id="prenom" required>
+                </div>
+                <div class='nom'>
+                    <label>Nom :</label>
+                    <input type="text" name="nom" id="nom" required>
+                </div>
+                <div class='mail'>
+                    <label>Adresse e-mail :</label>
+                    <input type="text" name="mail" id="mail" required>
+                </div>
+                <div class='datenaissance'>
+                    <label>Date de naissance :</label>
+                    <br>
+                    <input type="text" name="jour" id="jour" required>
+                    <input type="text" name="mois" id="mois" required>
+                    <input type="text" name="annee" id="annee" required>
+                </div>
+                <div class='genre'>
+                    <label>Genre :</label>
+                    <label>
+                        <input type="radio" name="radio1" value="homme">
+                        Homme
+                    </label>
+                    <label>
+                        <input type="radio" name="radio1" value="femme">
+                        Femme
+                    </label>
+                    <label>
+                        <input type="radio" name="radio1" value="autre">
+                        Autre
+                    </label>
+                </div>
+                <div class='materiel'>
+                    
+                    <label>
+                        <input type="checkbox" name="cb" value="rollersprotec" unchecked>
+                        Rollers et protections
+                    </label>
+                    <label>
+                        <input type="checkbox" name="cb" value="rollers" unchecked>
+                        Rollers
+                    </label>
+                    <label>
+                        <input type="checkbox" name="cb" value="protections" unchecked>
+                        Protections
+                    </label>
+                    <label>
+                        <input type="checkbox" name="cb" value="rien" unchecked>
+                        Rien
+                    </label>
+                </div>
+                <div class='loc'>
+                    <label>Comptez-vous louer du materiel :</label>
+                    <label>
+                        <input type="checkbox" name="cb" value="protections" unchecked>
+                        Oui (Participation Financière de 8€)
+                    </label>
+                    <label>
+                        <input type="checkbox" name="cb" value="rien" unchecked>
+                        Non
+                    </label>
+                </div>
+                <div class='clause'>
+                    <label>
+                        <input type="radio" value="respon" required='true'>
+                        Je déclare prendre toute responsabilité en cas d’accident, 
+                        de toutes nature que ce soit, ayant lieu le 22 janvier 2022, 
+                        et ce durant toute la durée de l’évènement
+                    </label>
+                    <br>
+                    <br>
+                    <label>
+                        <input type="radio" value="respon" required='true'>
+                        Je déclare avoir pris conscience des <a class='mentions' href="../mentions/mentions.html">mentions légales</a>.
+                    </label>
+                </div>
+                <div class='inscription'>
+                    <input type="submit" value="Inscription" class='bouton'>
+                </div>
+            </form>
+        </div>
+    </body>
+    <footer>
+        <a href="../mentions/mentions.html" id='mentions_legales' class='bouton'>Mentions légales</a>
+        <ul>
+            <li><a href="https://twitter.com/ulco_univ?lang=fr"><img src='../images/twitter.png' id='réseaux'></a></li>
+            <li><a href="https://fr-fr.facebook.com/ULCO.Univ/"><img src='../images/facebook.png' id='réseaux'></a></li>
+            <li><a href="https://www.instagram.com/ulco.univ/?hl=fr"><img src='../images/instagram.png' id='réseaux'></a></li>
+        </ul>
+    </footer>
+</div>
+</html>

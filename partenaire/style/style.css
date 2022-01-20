@@ -1,0 +1,19 @@
+.partenaire h2 {
+    font-weight: bold;
+    text-align: center;
+    color: #591202;
+}
+
+img {
+    width: 12em;
+    float: right;
+}
+
+.partenaire p a {
+    color: #BF1304;
+    transition: 0.5s;
+}
+
+.partenaire p a:hover {
+    color: #591202;
+}
